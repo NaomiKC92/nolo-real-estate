@@ -1,9 +1,10 @@
-import './App.css';
+import './CSS/App.css';
+import NavBar from "./Components/NavBar"
 
 function App() {
   return (
     <div className="App">
-      <h1> Welcome to Nolo Real Estate and Financial Management </h1>
+      <NavBar />
     </div>
   );
 }
