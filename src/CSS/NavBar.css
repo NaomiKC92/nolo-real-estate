@@ -1,25 +1,49 @@
 .NavBar {
   display: flex;
-  justify-content: left;
-  height: 5%;
-  border-bottom: 3px solid black;
+  justify-content: space-around;
+  height: 30%;
   align-items: baseline;
+  position: absolute;
+  z-index: 2;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+houseImg {
+  position: absolute;
+  z-index: -1;
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+.logoBox {
+  width: 22%;
 }
 
 .logo {
-  height: 100%;
+  width: 80%;
+  margin-left: 8%;
+}
+
+.logoText {
+  width: 100%;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-around;
   width: 20%;
 }
 
-.navButtonsContainer {
-  margin-left: 5%;
-  margin-right: 10%;
+button {
+  background: none;
+  color: black;
+  border: none;
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-button {
-  background-color: black;
-  color: white;
-  border-radius: 10%;
-  padding: 10px;
-  margin: 10px;
+button:hover {
+
 }

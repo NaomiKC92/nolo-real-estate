@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import NoLoLogo from '../../src/Images/NoLoLogo.png'
+import HouseImg from '../../src/Images/backgroundHomeImage.jpeg'
+import LogoText from '../../src/Images/logoText.png'
 import "../CSS/NavBar.css"
 
 class NavBar extends Component {
@@ -12,13 +14,18 @@ class NavBar extends Component {
   render() {
     return(
       <div className="NavBar">
-        <div className="navButtonsContainer">
+        <div className="navButtons">
           <button>Apply for a loan</button>
           <button>Selling</button>
+        </div>
+        <div className="logoBox">
+          <img src={NoLoLogo} className="logo"/>
+          <img src={LogoText} className="logoText"/>
+        </div>
+        <div className="navButtons">
           <button>Buying</button>
           <button>Agents</button>
         </div>
-      <img src={NoLoLogo} className="logo"/>
       </div>
     )
   }
