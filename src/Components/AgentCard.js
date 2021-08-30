@@ -5,7 +5,7 @@ const AgentCard = (props) => {
       <div className="agentCard">
         <img src={props.image}/>
         <h3>{props.name}</h3>
-        <a href="url">{props.moreInfo}</a>
+        <a href={props.moreInfo}>Learn More</a>
       </div>
     )
   }
