@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import AgentsData from "../../src/AgentsData"
 import AgentCard from "../Components/AgentCard"
+import "../../src/CSS/AgentContainer.css"
 
 
 const AgentContainer = () => {
@@ -17,8 +18,9 @@ const AgentContainer = () => {
   })
 
   return(
-    <div className="agentCardContainer">
-      {eachAgent}
+    <div className="agentContainer">
+      <h2 className="meetOurTeamTitle">Meet Our Team</h2>
+      <div className="agentcardContainer">{eachAgent}</div>
     </div>
   )
 

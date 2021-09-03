@@ -15,7 +15,7 @@ class NavBar extends Component {
     return(
       <div className="NavBar">
         <div className="navButtons">
-          <button>Apply for a loan</button>
+          <button>Loans</button>
           <button>Selling</button>
         </div>
         <div className="logoBox">

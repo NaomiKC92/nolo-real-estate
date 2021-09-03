@@ -1,47 +1,31 @@
+import Monkey from "../src/Images/monkey.jpeg"
+import Cow from "../src/Images/flowerCow.jpeg"
+import Bull from "../src/Images/bull.jpeg"
+
 
 const AgentsData = [
 
   {
     id:1 ,
     name: "Noel Lopez",
-    image: "image",
+    image: Bull,
     moreInfo: "https://github.com/",
   },
 
   {
     id:2 ,
     name: "Erica Lopez",
-    image: "image",
+    image: Cow,
     moreInfo: "https://github.com/",
   },
 
   {
     id:3 ,
     name: "Juan Galvan",
-    image: "image",
+    image: Monkey,
     moreInfo: "https://github.com/",
   },
 
-  {
-    id:4 ,
-    name: "Eva Campos",
-    image: "image",
-    moreInfo: "https://github.com/",
-  },
-
-  {
-    id:5 ,
-    name: "Bianka Campos",
-    image: "image",
-    moreInfo: "https://github.com/",
-  },
-
-  {
-    id:6 ,
-    name: "Naomi Campos",
-    image: "image",
-    moreInfo: "https://github.com/",
-  },
 
 ]
 
