@@ -1,0 +1,21 @@
+.agentCard {
+  margin-bottom: 50px;
+  width: 33%;
+  text-align: center;
+}
+
+.agentCardPhoto {
+  height: 400px;
+  width: 300px;
+}
+
+.learMoreLink {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.learMoreLink:hover {
+  font-size: 1em;
+  font-style: italic;
+}

@@ -1,0 +1,16 @@
+.agentContainer {
+    padding: 20px;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.agentcardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.meetOurTeamTitle {
+  text-align: center;
+  font-size: 1.5em;
+}
