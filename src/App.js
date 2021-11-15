@@ -1,14 +1,14 @@
 import './CSS/App.css';
 import NavBar from "./Components/NavBar"
-import AgentContainer from "./Components/AgentContainer"
+import HomePage from "./Components/HomePage"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <NavBar />
-      <AgentContainer />
+      <HomePage />
     </div>
-  );
+  )
 }
 
 export default App;
