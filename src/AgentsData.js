@@ -1,28 +1,28 @@
-import Monkey from "../src/Images/monkey.jpeg"
-import Cow from "../src/Images/flowerCow.jpeg"
-import Bull from "../src/Images/bull.jpeg"
+import Noel from "../src/Images/NoelHeadshot.png"
+import Liliana from "../src/Images/LilianaHeadshot.jpg"
+import Vero from "../src/Images/VeroHeadshot.jpg"
 
 
 const AgentsData = [
 
   {
     id:1 ,
-    name: "Noel Lopez",
-    image: Bull,
+    name: "Noel",
+    image: Noel,
     moreInfo: "https://github.com/",
   },
 
   {
     id:2 ,
-    name: "Erica Lopez",
-    image: Cow,
+    name: "Liliana",
+    image: Liliana,
     moreInfo: "https://github.com/",
   },
 
   {
     id:3 ,
-    name: "Juan Galvan",
-    image: Monkey,
+    name: "Vero",
+    image: Vero,
     moreInfo: "https://github.com/",
   },
 
