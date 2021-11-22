@@ -1,8 +1,6 @@
-import LivingRoom from "../src/Images/whiteLivingRoom.jpg"
-import TanKitchen from "../src/Images/tanBlackKitchen.jpeg"
-import OuterView from "../src/Images/backgroundHomeImage.jpeg"
-
-
+import LivingRoom from "../src/Images/whiteLivingRoom.jpg";
+import TanKitchen from "../src/Images/tanBlackKitchen.jpeg";
+import OuterView from "../src/Images/backgroundHomeImage.jpeg";
 
 const WelcomeImages = [
   {
@@ -18,7 +16,7 @@ const WelcomeImages = [
   {
     id: 3,
     image: OuterView,
-  }
-]
+  },
+];
 
-export default WelcomeImages
+export default WelcomeImages;
