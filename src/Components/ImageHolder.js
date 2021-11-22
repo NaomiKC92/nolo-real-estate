@@ -11,7 +11,7 @@ const ImageHolder = () => {
   const matchingObject = ImagesList[randomIndex].image;
 
   return (
-    <div>
+    <div className="welcomeImageHolder">
       <WelcomeImageCard image={matchingObject} />
     </div>
   );

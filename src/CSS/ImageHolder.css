@@ -1,6 +1,6 @@
-
-
 .welcomeImageHolder {
-  border: 4px solid black;
+  border: 5px ridge black;
   height: 800px;
+  background-color: black;
+  overflow: hidden;
 }

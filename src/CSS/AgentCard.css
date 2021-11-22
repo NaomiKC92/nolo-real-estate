@@ -5,17 +5,18 @@
 }
 
 .agentCardPhoto {
-  height: 345px;
+  object-fit: contain;
+  /* height: 345px; */
   width: 300px;
 }
 
-.learMoreLink {
+.learnMoreLink {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-.learMoreLink:hover {
+.learnMoreLink:hover {
   font-size: 1em;
   font-style: italic;
 }

@@ -1,3 +1,5 @@
-.welcomePhoto {
-
+.welcomeImageCard {
+  height: 50em;
+  width: 100em;
+  object-fit: contain;
 }

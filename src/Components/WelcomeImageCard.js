@@ -4,8 +4,8 @@ import "../../src/CSS/WelcomeImageCard.css";
 const WelcomeImageCard = ({ image }) => {
   console.log(image);
   return (
-    <div className="welcomeImageCard">
-      <img src={image} className="welcomePhoto" />
+    <div>
+      <img src={image} className="welcomeImageCard" />
     </div>
   );
 };
