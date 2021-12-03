@@ -1,6 +1,7 @@
 import Noel from "../src/Images/NoelHeadshot.png";
 import Liliana from "../src/Images/LilianaHeadshot.jpg";
 import Vero from "../src/Images/VeroHeadshot.jpg";
+import Jessie from "../src/Images/JessieHeadshot.JPG";
 
 const AgentsData = [
   {
@@ -22,6 +23,12 @@ const AgentsData = [
     name: "Vero",
     image: Vero,
     moreInfo: "https://github.com/",
+  },
+  {
+    id: 4,
+    nname: "Jessie",
+    image: Jessie,
+    moreInfo: "More Info",
   },
 ];
 

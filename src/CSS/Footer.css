@@ -1,15 +1,15 @@
 .footer {
   text-align: center;
   border-top: 2px solid black;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
 
 .link-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .license-info {
